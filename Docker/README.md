@@ -24,6 +24,12 @@ sudo mkdir -p /data/store/eos
 docker-compose -f Docker/docker-compose.yml up
 ```
 
+If you get an error after `docker-compose` step, you may have to change directory permissions to your current system user 
+
+```bash
+sudo chown -R SYSTEM_USER /data/store/eos
+```
+
 ## Get chain info
 
 ```bash
