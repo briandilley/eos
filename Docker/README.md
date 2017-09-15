@@ -30,7 +30,7 @@ docker-compose -f Docker/docker-compose.yml up
 curl http://127.0.0.1:8888/v1/chain/get_info
 ```
 
-## Run example contracts
+## Execute eosc commands
 
 You can run the `eosc` commands via `docker exec` command. For example:
 
